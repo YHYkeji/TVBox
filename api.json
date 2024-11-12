@@ -2047,26 +2047,24 @@
         }
     ],
     "lives": [
-                {
-            "name": "直播3",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Gather",
-            "playerType": 3
-        }
-                {
-            "name": "直播2",
-            "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 2
-        },
-        {
-            "name": "直播1",
-            "type": 0,
-            "url": "./live.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-
+    {
+      "name": "SAO0",
+      "type": 0,
+      "url": "https://7336.kstore.space/log.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "./tvbox/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    }
     ],
     "flags": [
         "youku",
