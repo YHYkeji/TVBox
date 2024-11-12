@@ -9,7 +9,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "公众号｜四次元分享",
+            "name": "公众号｜YHY科技库",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
